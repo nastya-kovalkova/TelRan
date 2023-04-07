@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.title,
+.subtitle {
+    margin-bottom: 20px;
+}
+
+.list {
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.block-1 {
+    margin-bottom: 25px;
+}
+
+table,
+td,
+th {
+    border: 1px solid #000;
+}
+
+.table-cell {
+    padding: 10px 5px;
+}
+
+.flag {
+    width: 50px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+
+/* Второй вариант */
+
+/* .table-cell:nth-child(1) {
+    width: 105px;
+}
+
+.table-cell:nth-child(1) {
+    width: 105px;
+    background-image: url("./Images/usa.jpg"), url("./Images/european_union.jpg");
+    background-size: 50px 30px;
+    background-position: left, right;
+    background-repeat: no-repeat;
+} */
+
+/* .table-cell.first-flag-1 {
+    background-image: url("./Images/united_kindom.jpg"), url("./Images/european_union.jpg");
+}
+
+.table-cell.first-flag-2 {
+    background-image: url("./Images/japan.jpg"), url("./Images/european_union.jpg");
+}
+
+.table-cell.first-flag-3 {
+    background-image: url("./Images/georgia.jpg"), url("./Images/european_union.jpg");
+} */
