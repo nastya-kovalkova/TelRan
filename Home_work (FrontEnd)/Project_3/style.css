@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #1A1A1A;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.form-registration {
+    width: 420px;
+    border-radius: 20px;
+    padding: 40px 32px 32px 32px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 50px -6px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.form-title {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.form-main {
+    margin: 25px 0;
+}
+
+.form-input,
+.form-button {
+    width: 100%;
+    padding: 15px;
+}
+
+.form-input {
+    border-radius: 12px;
+    border: 1px solid #CFD8DC;
+    outline: none;
+    font-size: 16px;
+}
+
+.form-input:first-child {
+    margin-bottom: 10px;
+}
+
+.form-input:focus {
+    border-color: #FFE44D;
+}
+
+.form-text {
+    color: #7B8E98;
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.form-button {
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid #CFD8DC;
+    border-radius: 85px;
+    background-color: transparent;
+}
+
+.form-button:first-child {
+    margin-bottom: 10px;
+}
+
+.form-button:hover {
+    cursor: pointer;
+}
+
+.button-color {
+    background-color: #FFE44D;
+    border-color: #FFE44D
+}
+
+.close-cross {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
