@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Домашние задание</h1>
+        <div class="block-1">
+            <h2 class="subtitle">Списки валют</h2>
+            <ul class="list">
+                <li>&euro; (EUR) - Евро (Страны Европы)</li>
+                <li>&dollar; (USD) - Доллар (США)</li>
+                <li>&pound; (GBP) - Фунт стерлингов (Великобритания)</li>
+                <li>&yen; (JPY) - Иена (Япония)</li>
+                <li>&#8382; (GEL) - Лари (Грузия)</li>
+            </ul>
+        </div>
+        <div class="block-2">
+            <h2 class="subtitle">Курс на сегодня</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Флаг</th>
+                        <th>Валюта</th>
+                        <th>Курс</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <!-- Первый вариант с использованием background-image -->
+                        <!-- <td class="table-cell"></td> -->
+
+                        <!-- Второй вариант с использованием тега img -->
+                        <td class="table-cell">
+                            <img class="flag" src="./Images/usa.jpg" alt="flag-usa">
+                            <img class="flag" src="./Images/european_union.jpg" alt="flag-eu">
+                        </td>
+                        <td class="table-cell">&dollar; (USD) / &euro; (EUR)</td>
+                        <td class="table-cell">0,93 &euro;</td>
+                    </tr>
+                    <tr>
+                        <!-- <td class="table-cell first-flag-1"></td> -->
+
+                        <td class="table-cell">
+                            <img class="flag" src="./Images/united_kindom.jpg" alt="flag-uk">
+                            <img class="flag" src="./Images/european_union.jpg" alt="flag-eu">
+                        </td>
+                        <td class="table-cell">&pound; (GBP) / &euro; (EUR)</td>
+                        <td class="table-cell">1,17 &euro;</td>
+                    </tr>
+                    <tr>
+                        <!-- <td class="table-cell first-flag-2"></td> -->
+
+                        <td class="table-cell">
+                            <img class="flag" src="./Images/japan.jpg" alt="flag-japan">
+                            <img class="flag" src="./Images/european_union.jpg" alt="flag-eu">
+                        </td>
+                        <td class="table-cell">&yen; (JPY) / &euro; (EUR)</td>
+                        <td class="table-cell">0,0073 &euro;</td>
+                    </tr>
+                    <tr>
+                        <!-- <td class="table-cell first-flag-3"></td> -->
+
+                        <td class="table-cell">
+                            <img class="flag" src="./Images/georgia.jpg" alt="flag-georgia">
+                            <img class="flag" src="./Images/european_union.jpg" alt="flag-eu">
+                        </td>
+                        <td class="table-cell">&#8382; (GEL) / &euro; (EUR)</td>
+                        <td class="table-cell">0,32 &euro;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
