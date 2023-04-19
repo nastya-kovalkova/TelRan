@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+section {
+    display: inline-block;
+    position: relative;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    transition-duration: 1.5s;
+}
+
+div:first-child {
+    background-color: rgb(206, 42, 42);
+}
+
+div:nth-child(2) {
+    background-color: rgb(68, 165, 30);
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+}
+
+div:last-child {
+    background-color: rgb(62, 62, 163);
+    margin-left: 200px;
+}
+
+div:nth-child(2):hover {
+    transform: scale(1.5) rotateZ(-45deg);
+}
