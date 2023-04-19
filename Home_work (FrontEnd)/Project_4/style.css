@@ -2,33 +2,49 @@
     margin: 0;
 }
 
-section {
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.squares {
     display: inline-block;
     position: relative;
 }
 
-div {
+.square {
     height: 200px;
     width: 200px;
     transition-duration: 1.5s;
 }
 
-div:first-child {
+.square:first-child {
     background-color: rgb(206, 42, 42);
 }
 
-div:nth-child(2) {
+.square:nth-child(2) {
     background-color: rgb(68, 165, 30);
     position: absolute;
-    top: calc(50% - 100px);
-    left: calc(50% - 100px);
+    z-index: 1;
+    left: 25%;
+    top: 25%;
 }
 
-div:last-child {
+.square:last-child {
     background-color: rgb(62, 62, 163);
-    margin-left: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
-div:nth-child(2):hover {
+.square:nth-child(2):hover {
     transform: scale(1.5) rotateZ(-45deg);
+    cursor: pointer;
 }
+
+/* .square:hover {
+    transform: scale(1.5) rotateZ(-45deg);
+    cursor: pointer;
+    z-index: 2;
+} */
