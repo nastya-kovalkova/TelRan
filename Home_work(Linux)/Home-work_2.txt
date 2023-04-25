@@ -1,0 +1,9 @@
+   0 mkdir -p /opt/test/Anastasiia
+   1 cat readme.txt >> /opt/test/Anastasiia/test.txt
+   2 cat /opt/test/Anastasiia/test.txt
+   3 ps -ef | head -2 >> /opt/test/Anastasiia/test.txt
+   4 cat /opt/test/Anastasiia/test.txt
+   5 mkdir -p /tmp/test2/Anastasiia2
+   6 mv /opt/test/Anastasiia/test.txt /tmp/test2/Anastasiia2/test2.txt
+   7 vi /tmp/test2/Anastasiia2/test2.txt 
+   8 history > 25.04_path.txt
