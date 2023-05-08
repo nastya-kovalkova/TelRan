@@ -39,7 +39,7 @@ index.html - https://github.com/nastya-kovalkova/TelRan/blob/master/Front-End/Pr
 script.js - https://github.com/nastya-kovalkova/TelRan/tree/master/Front-End/Project_8  
 Packages - https://nastya-kovalkova.github.io/TelRan/Front-End/Project_8/  
   
-HW-9 (Working with DOM-elements)  
+HW-9 (Working with Events)  
 index.html - https://github.com/nastya-kovalkova/TelRan/blob/master/Front-End/Project_9/index.html  
 style.css - https://github.com/nastya-kovalkova/TelRan/blob/master/Front-End/Project_9/style.css  
 script.js - https://github.com/nastya-kovalkova/TelRan/blob/master/Front-End/Project_9/script.js  
