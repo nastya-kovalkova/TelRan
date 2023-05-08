@@ -1,4 +1,7 @@
-# Front-End
+##Linux  
+Имя сервера:  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+
+#Front-End
 
 Home works ->
 
