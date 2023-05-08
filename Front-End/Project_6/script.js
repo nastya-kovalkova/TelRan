@@ -45,7 +45,7 @@ for (let i = 1; i <= 10; i++) {
 // Дан объект user.Используя данные из объекта, сформировать строку в
 // формате: ‘User’s name is < FIRST_NAME > <LAST_NAME>. He is <AGE> years old’
 //     const user = {
-//         first_name: 'Ivan',
+//     first_name: 'Ivan',
 //     last_name: 'Ivanov',
 //     age: 20,
 //     salary: 500
