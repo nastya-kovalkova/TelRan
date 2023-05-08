@@ -1,23 +1,23 @@
-// Задание №1
+ // Задание №1
 // Напишите функцию, которая принимает два числовых аргумента и выводит
 // в консоль все четные числа от большего к меньшему.
 //------------------------------------------------------------------------
-function evenNumbers(num1, num2) {
-    if (num1 < num2) {
-        for (let i = num2; i >= num1; i--) {
-            if (i % 2 == 0) {
-                console.log(i);
-            }
-        }
-    } else {
-        for (let i = num1; i >= num2; i--) {
-            if (i % 2 == 0) {
-                console.log(i);
-            }
-        }
-    }
-}
-evenNumbers(10, 20);
+// function evenNumbers(num1, num2) {
+//     if (num1 < num2) {
+//         for (let i = num2; i >= num1; i--) {
+//             if (i % 2 == 0) {
+//                 console.log(i);
+//             }
+//         }
+//     } else {
+//         for (let i = num1; i >= num2; i--) {
+//             if (i % 2 == 0) {
+//                 console.log(i);
+//             }
+//         }
+//     }
+// }
+// evenNumbers(10, 20);
 //------------------------------------------------------------------------
 //-----------------------------------------------------------------------
 // Задание №2
@@ -38,17 +38,17 @@ evenNumbers(10, 20);
 // Напишите функцию, которая принимает числовой аргумент n
 // и считает сумму чисел от 1 до n.
 //------------------------------------------------------------------------
-// function sumNumbers(num) {
-//     let sum = 0;
+function sumNumbers(num) {
+    let sum = 0;
 
-//     for (let i = 1; i <= num; i++) {
-//         result = sum += i;
-//     }
-//     return result;
-// }
+    for (let i = 1; i <= num; i++) {
+        result = sum += i;
+    }
+    return result;
+}
 
-// const mySum = sumNumbers(4);
-// console.log("Сумма чисел = " + mySum);
+const mySum = sumNumbers(4);
+console.log("Сумма чисел = " + mySum);
 //------------------------------------------------------------------------
 //------------------------------------------------------------------------
 // Задание №4
@@ -99,8 +99,3 @@ evenNumbers(10, 20);
 // const arrayOfStrings = ["school", "university", "cat", "vocabulary", "apple"];
 // const longElement = showLongElement(arrayOfStrings);
 // console.log(longElement);
-//------------------------------------------------------------------------
-// if ((array[i].length) > (array[i + 1].length)) {  //Подсскажите почему так нельзя написать?(
-//     long_elem = array[i];
-// }
-//------------------------------------------------------------------------
