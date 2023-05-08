@@ -3,7 +3,6 @@
 Home works ->
 
 HW-1 (Texts and Blocks)
-
 index.html - https://github.com/nastya-kovalkova/TelRan/blob/master/Front-End/Project_1/index.html
 style.css - https://github.com/nastya-kovalkova/TelRan/blob/master/Front-End/Project_1/style.css
 Packages - https://nastya-kovalkova.github.io/TelRan/Front-End/Project_1/
