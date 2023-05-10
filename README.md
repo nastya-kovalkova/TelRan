@@ -1,5 +1,6 @@
 # Linux  
 Имя сервера:  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+путь в папку: cd /opt/280323_morning/Kovalkova
 
 # Front-End
 
