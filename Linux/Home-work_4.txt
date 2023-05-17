@@ -1,0 +1,6 @@
+#!/bin/bash
+USER=Anastasiia
+date +'%D'
+echo "Hello $USER!"
+pwd
+ps -ef | tail -n+2 | wc -l
